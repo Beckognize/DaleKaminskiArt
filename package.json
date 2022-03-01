@@ -1,0 +1,28 @@
+{
+  "name": "DaleKaminskiArt",
+  "version": "1.0.0",
+  "description": "Artist portfolio",
+  "main": "index.js",
+  "scripts": {   
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Beckognize/DaleKaminskiArt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Beckognize/DaleKaminskiArt/issues"
+  },
+  "homepage": "https://github.com/Beckognize/DaleKaminskiArt#readme",
+  "dependencies": {
+    "next": "^12.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
