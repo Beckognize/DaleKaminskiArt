@@ -1,5 +1,14 @@
+
+import Navbar from '../components/navbar'
+import Header from '../components/header'
+
 export default () => {
     return (
-<h1> Hello World</h1>
+        <>
+
+<Header/>
+<Navbar/>
+
+</>
 );
 }

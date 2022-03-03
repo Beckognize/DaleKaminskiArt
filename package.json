@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Artist portfolio",
   "main": "index.js",
-  "scripts": {   
+  "scripts": {
     "dev": "next",
     "build": "next build",
     "start": "next start",
@@ -21,8 +21,12 @@
   },
   "homepage": "https://github.com/Beckognize/DaleKaminskiArt#readme",
   "dependencies": {
+    "antd": "^4.18.9",
+    "bootstrap": "^5.1.3",
     "next": "^12.1.0",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-bootstrap": "^2.1.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^6.2.2"
   }
 }
