@@ -3,7 +3,7 @@ import {Navbar,Container,Nav,NavDropdown} from 'react-bootstrap';
 export default () => {
     
     return (
-  <Navbar bg="light" expand="lg">
+  <Navbar expand="lg" style={{zIndex:100,backgroundColor:'white'}}>
     <Container fluid>
       <Navbar.Brand href="#home">Dale Kaminski</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
