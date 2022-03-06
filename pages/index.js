@@ -9,8 +9,7 @@ export default () => {
 <Header/>
 <Navbar/>
 <body>
-   <div className= 'outerbox'>
-    <div className = 'container-fluid'>
+   <div className = 'container-fluid'>
     <div className ='photobox'>
         <img style={{ top: "10%", right: "18%", width: '15%' }} src='images/Jumpthumb.jpg' alt='woman jumping'></img>
         <img style={{ top: "30%", right: "35%", width: '7%' }} src='images/bflowerthumb.jpg' alt='flower and bee'></img>
@@ -22,7 +21,6 @@ export default () => {
         <img style={{ top: "38%", left: "30%", width: '13%' }} src='images/windmillsthumb.jpg' alt='woman jumping'></img> 
         <img style={{ top: "55%", right: "28%", width: '13%' }} src='images/wuhanthumb.jpg' alt='woman jumping'></img>
         <img style={{ top: "40%", right: "3%", width: '11%' }} src='images/reedsthumb.jpg' alt='woman jumping'></img>   
-    </div>
     </div>
     </div>
 </body>
