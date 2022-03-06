@@ -1,7 +1,84 @@
 @import url(font.css);
 
 body{
-    background-color: blueviolet;
+    background-color: white;
 }
 
+.photobox{ 
+    position:relative;
+    width: 100%;
+    background-color:;
+    max-width: 1500px;
+    margin: auto;
+    aspect-ratio: 1/1;
+}
 
+.photobox img{
+    position: absolute;
+    transition: all 1s;
+}
+.photobox img:hover{
+    z-index:1;
+    transform: scale(1.5);
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 1);
+}
+/*.small-image{
+    width:6rem;
+  
+
+  
+}
+
+.med-image{
+    width:11rem;
+  
+
+  
+}
+
+.big-image{
+    width:20rem;
+  
+
+  
+}*/
+
+.med-image {
+  
+  width: 200px; 
+  height: 210px; 
+  object-fit: cover; 
+  /*object-position: 100% 0;*/
+  
+}
+.medsmall-image {
+  
+    width: 150px; 
+    height: 160px; 
+    object-fit: cover; 
+    /*object-position: 100% 0;*/
+    
+  }
+.small-image {
+  
+    width: 100px; 
+    height: 110px; 
+    object-fit: cover; 
+    /*object-position: 100% 0;*/
+}
+
+.jump-image {
+    width: 250px; 
+    height: 260px; 
+    object-fit: cover; 
+    object-position: 100% 19%;
+  }
+
+  .flag-image {
+  
+    width: 100px; 
+    height: 110px; 
+    object-fit: cover; 
+    object-position: 5% 0;
+    
+  }
