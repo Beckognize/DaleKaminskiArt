@@ -2,6 +2,7 @@
 
 body{
     background-color: white;
+    
 }
 
 .photobox{ 
@@ -9,17 +10,19 @@ body{
     width: 100%;
     max-width: 1500px;
     margin: auto;
-    aspect-ratio: 1/1.5;
+    aspect-ratio: 1/1;
 }
 
 .photobox img{
     position: absolute;
     transition: all 1s;
+    border: .3rem solid white;
 }
 .photobox img:hover{
     z-index:1;
     transform: scale(1.5);
     box-shadow: 0 0 1rem rgba(0, 0, 0, 1);
+    
 }
 
 .outerbox{
@@ -41,4 +44,17 @@ body{
     z-index:100;
  
     pointer-events: none;
+}
+
+.bovvers {
+    overflow-y: scroll;
+   
+}
+.bovvers::-webkit-scrollbar{
+    display: none;
+}
+
+.bovves {
+    -ms-overflow-style: none;
+    scrollbar-width:none;
 }
