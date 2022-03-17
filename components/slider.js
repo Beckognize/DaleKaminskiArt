@@ -1,36 +1,35 @@
-
-export default ({visible, exit, images, currentImage}) => {
+import { useState } from 'react'
+import Carousel from 'react-bootstrap/Carousel'
+export default ({visible, exit, images, imageNumber, selectImage}) => {
+ 
   return (
     <div
       style={{
-        border: '1px solid red',
-        background: 'rgba(255,0,0,.5)',
-        position: 'absolute',
-        top: '5rem',
-        left: '5rem',
-        right: '5rem',
-        bottom: '5rem',
+        background: 'white',
+        position: 'fixed',
+        height: '100vh',
+        top: '0',
+        left: '0',
+        right: '0',
+        padding: '2rem',
+        zIndex: 200,
         display: visible ? 'block' : 'none'
       }}>
-      <h2>Slider Component</h2>
-      <hr/>
+      <Carousel indicators = {false}activeIndex={imageNumber} onSelect={selectImage}>
       {images.map(image =>
-        <img
-          src={image.src}
-          alt={image.alt}
-          style={{ 
-            width: '8rem',
-            border: (currentImage?.src == image.src) ? '2px solid yellow' : '2px solid blue'
-          }}
+        <Carousel.Item>
+          <img
+            style={{height: '90vh', display: 'block', margin: 'auto'}}
+            src={image.src}
+            alt={image.alt}
           />
+          <Carousel.Caption>
+            <h3>{image.alt}</h3>
+          </Carousel.Caption>
+        </Carousel.Item>
       )}
-      <hr/>
-      <h3> Current image:</h3>
-       { currentImage
-        ? <img src={currentImage.src} alt={currentImage.alt} style={{ width: '8rem' }}/>
-        : 'No image selected'
-       }
-      <hr/>
+      </Carousel>
+      
       <button onClick={exit}>Close</button>
     </div>
   );
