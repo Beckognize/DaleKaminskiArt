@@ -15,12 +15,12 @@ export default ({visible, exit, images, imageNumber, selectImage}) => {
       style={{
         background: 'white',
         position: 'fixed',
-        top: '0',
-        left: '0',
-        height: '100vh',
-        width: '100vw',
+        top: 0,
+        left: 0,
+        bottom: 0,
+        right: 0,
         zIndex: 200,
-        display: visible ? 'table' : 'none',
+        display: visible ? 'block' : 'none',
       }}>
       <Carousel
         pause="hover"
@@ -32,25 +32,24 @@ export default ({visible, exit, images, imageNumber, selectImage}) => {
         >
       {images.map(image =>
         <Carousel.Item>
-          <center>
             <div style={{
-                display: 'table-cell',
-                verticalAlign: 'middle',
-                height: '100vh',
-                width: '100vw',
+              display: 'flex',
+              justifyContent: 'center',
+              verticalAlign: 'middle',
+              height: '100vh',
+              width: '100vw',
               }}>
               <img
                 style={{
                   display: 'block',
                   margin: 'auto',
                   maxHeight: '95vh',
-                  maxWidth: '95vw',
+                  maxWidth: '95vw',  
                 }}
                 src={image.src}
                 alt={image.alt}
               />
             </div>
-          </center>
         </Carousel.Item>
       )}
       </Carousel>
