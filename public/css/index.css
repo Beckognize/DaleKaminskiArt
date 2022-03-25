@@ -58,3 +58,10 @@ body{
     -ms-overflow-style: none;
     scrollbar-width:none;
 }
+
+.slidebox {
+  max-width:100%;
+  max-height:100%;
+  object-fit:contain;
+  display:block;
+}

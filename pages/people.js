@@ -4,7 +4,6 @@ import Header from '../components/header'
 import Slider from '../components/slider'
 
 const myImages = [
-  
   {
     src:'images/people/studentshay.jpg',
     alt:'students in classroom',

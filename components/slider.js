@@ -7,30 +7,55 @@ export default ({visible, exit, images, imageNumber, selectImage}) => {
       style={{
         background: 'white',
         position: 'fixed',
-        height: '100vh',
         top: '0',
         left: '0',
-        right: '0',
-        padding: '2rem',
+        height: '100vh',
+        width: '100vw',
         zIndex: 200,
-        display: visible ? 'block' : 'none'
+        display: visible ? 'table' : 'none',
       }}>
-      <Carousel indicators = {false}activeIndex={imageNumber} onSelect={selectImage}>
+      <Carousel
+        pause="hover"
+        interval="10000000"
+        variant="dark"
+        indicators ={false}
+        activeIndex={imageNumber}
+        onSelect={selectImage}
+        >
       {images.map(image =>
         <Carousel.Item>
-          <img
-            style={{height: '90vh', display: 'block', margin: 'auto'}}
-            src={image.src}
-            alt={image.alt}
-          />
-          <Carousel.Caption>
-            <h3>{image.alt}</h3>
-          </Carousel.Caption>
+          <center>
+            <div style={{
+                display: 'table-cell',
+                verticalAlign: 'middle',
+                height: '100vh',
+                width: '100vw',
+              }}>
+              <img
+                style={{
+                  display: 'block',
+                  margin: 'auto',
+                  maxHeight: '95vh',
+                  maxWidth: '95vw',
+                }}
+                src={image.src}
+                alt={image.alt}
+              />
+            </div>
+          </center>
         </Carousel.Item>
       )}
       </Carousel>
       
-      <button onClick={exit}>Close</button>
+      <button
+        style={{
+          position: 'absolute',
+          top: '1rem',
+          right: '2rem',
+          zIndex: '210'
+        }}
+        onClick={exit}
+        >Close</button>
     </div>
   );
 }
