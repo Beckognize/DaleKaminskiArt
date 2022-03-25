@@ -2,6 +2,14 @@ import { useState } from 'react'
 import Carousel from 'react-bootstrap/Carousel'
 export default ({visible, exit, images, imageNumber, selectImage}) => {
  
+  if (typeof document !== 'undefined') {
+    if (visible) {
+      document.body.style.overflow = 'hidden'
+    } else {
+      document.body.style.overflow = 'initial'
+    }
+  }
+
   return (
     <div
       style={{

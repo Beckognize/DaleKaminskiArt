@@ -65,3 +65,17 @@ body{
   object-fit:contain;
   display:block;
 }
+
+.carousel-control-prev,
+.carousel-control-next {
+  align-items: end;
+  padding: 2rem;
+}
+
+.carousel-control-next {
+  justify-content: right;
+}
+
+.carousel-control-prev {
+  justify-content: left;
+}
