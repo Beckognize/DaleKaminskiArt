@@ -33,36 +33,31 @@ export default ({visible, exit, images, imageNumber, selectImage}) => {
       {images.map(image =>
         <Carousel.Item>
             <div style={{
-              display: 'flex',
-              justifyContent: 'center',
-              verticalAlign: 'middle',
-              height: '100vh',
-              width: '100vw',
-              }}>
-              <img
-                style={{
-                  display: 'block',
-                  margin: 'auto',
-                  maxHeight: '95vh',
-                  maxWidth: '95vw',  
-                }}
-                src={image.src}
-                alt={image.alt}
-              />
-            </div>
+              position: 'fixed',
+              top: '3rem',
+              left: '1rem',
+              bottom: '4rem',
+              right: '1rem',
+              backgroundImage: `url(${image.src})`,
+              backgroundRepeat: 'no-repeat',
+              backgroundPosition: 'center center',
+              backgroundSize: 'contain',
+              }} />
         </Carousel.Item>
       )}
       </Carousel>
       
-      <button
+      <div
         style={{
           position: 'absolute',
-          top: '1rem',
-          right: '2rem',
-          zIndex: '210'
+          display: 'block',
+          top: '.75rem',
+          right: '1.5rem',
+          zIndex: '210',
+          cursor: 'pointer'
         }}
         onClick={exit}
-        >Close</button>
+        >× Close</div>
     </div>
   );
 }
