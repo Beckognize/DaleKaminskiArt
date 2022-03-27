@@ -89,12 +89,19 @@ body{
 
 .carousel-control-next {
   justify-content: right;
+
 }
 
 .carousel-control-prev {
   justify-content: left;
 }
-.carousel-control-next-icon
+.carousel-control-next-icon,
 .carousel-control-prev-icon {
+  position:absolute;
+  bottom:1rem;
 
+}
+
+.carousel-control-next-icon{
+  right:1rem;
 }

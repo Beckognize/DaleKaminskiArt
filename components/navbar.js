@@ -12,15 +12,14 @@ export default () => {
           <Nav.Link href="/">Home</Nav.Link>
           <Nav.Link href="#link">CV</Nav.Link>
           <NavDropdown title="Work" id="basic-nav-dropdown" align="end">
+            <NavDropdown.Item href="/america">America</NavDropdown.Item>
+            <NavDropdown.Item href="/art">Art</NavDropdown.Item>
+            <NavDropdown.Item href="/flower">Flower</NavDropdown.Item>
+            <NavDropdown.Item href="/graphic">Graphic</NavDropdown.Item>
             <NavDropdown.Item href="/people">People</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">Art</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.3">America</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.3">Flower</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.3">Graphic</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.3">Self Portrait</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.3">Tier 2</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.3">Topographics</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.3">Travels</NavDropdown.Item>
+            <NavDropdown.Item href="/selfportrait">Self Portrait</NavDropdown.Item>
+            <NavDropdown.Item href="/topographics">Topographics</NavDropdown.Item>
+            <NavDropdown.Item href="/travels">Travels</NavDropdown.Item>
             <NavDropdown.Divider />
             <NavDropdown.Item href="#action/3.4">Contact Me</NavDropdown.Item>
           </NavDropdown>
