@@ -6,12 +6,14 @@ body{
 }
 
 .photobox{ 
-    position:relative;
+   
+  position:relative;
     width: 95%;
     max-width: 1500px;
     margin: auto;
-    aspect-ratio: 1/1;
-   
+    xaspect-ratio: 1/1;
+    height:95vw;
+   max-height:1500px;
 }
 
 .photobox img{
@@ -67,9 +69,20 @@ body{
   display:block;
 }
 
+.carousel {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: white;
+  z-index: 200;
+}
+
 .carousel-control-prev,
 .carousel-control-next {
-  position: fixed;
+  position: absolute;
+  bottom: 0;
   align-items: end;
   padding: 1rem;
 }
@@ -80,4 +93,8 @@ body{
 
 .carousel-control-prev {
   justify-content: left;
+}
+.carousel-control-next-icon
+.carousel-control-prev-icon {
+
 }

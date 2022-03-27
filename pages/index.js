@@ -1,6 +1,6 @@
 import Navbar from '../components/navbar'
 import Header from '../components/header'
-
+import Link from 'next/link'
 export default () => {
     return (
         <>
@@ -10,16 +10,16 @@ export default () => {
 <body>
    <div className = 'container-fluid'>
     <div className ='photobox'>
-        <img style={{ top: "15%", right: "18%", width: '15%' }} src='images/DawnV_1.jpg' alt='woman jumping'></img>
-        <img style={{ top: "40%", right: "35%", width: '7%' }} src='images/Bee_polen_flower.jpg' alt='flower and bee'></img>
-        <img style={{ top: "40%", left: "50%", width: '7%' }} src='images/lotus.jpg' alt='woman jumping'></img>
-        <img style={{ top: "20%", left: "25%", width: '16%' }} src='images/Hail_Badger.jpg' alt='woman jumping'></img>
-        <img style={{ top: "8%", left: "14%", width: '16%' }} src='images/MainStreet_flags_america.jpg' alt='woman jumping'></img>
-        <img style={{ top: "45%", left: "2%", width: '20%' }} src='images/three ladies_on bench.jpg' alt='woman jumping'></img>
-        <img style={{ top: "70%", left: "16%", width: '13%' }} src='images/blackBird_contrail.jpg' alt='airplane'></img>
-        <img style={{ top: "53%", left: "40%", width: '20%' }} src='images/windmills_sky_atmosphere.jpg' alt='woman jumping'></img> 
-        <img style={{ top: "73%", right: "28%", width: '13%' }} src='images/Wuhan_rags and riches.jpg' alt='woman jumping'></img>
-        <img style={{ top: "50%", right: "3%", width: '11%' }} src='images/reeds_and_Pond.jpg' alt='woman jumping'></img>   
+        <Link href='/people'><a><img style={{ top: "15%", right: "18%", width: '16%' }} src='images/DawnV_1.jpg' alt='woman jumping'></img></a></Link>
+        <Link href='/people'><a><img style={{ top: "40%", right: "35%", width: '7%' }} src='images/Bee_polen_flower.jpg' alt='flower and bee'></img></a></Link>
+        <img style={{ top: "40%", left: "50%", width: '7%' }} src='images/lotus.jpg' alt='lotus flower'></img>
+        <img style={{ top: "20%", left: "25%", width: '16%' }} src='images/Hail_Badger.jpg' alt='large ship'></img>
+        <img style={{ top: "8%", left: "14%", width: '18%' }} src='images/MainStreet_flags_america.jpg' alt='pickup truck with many american flags'></img>
+        <img style={{ top: "45%", left: "2%", width: '18%' }} src='images/shiny_bug_selfPortrait-6.jpg' alt='reflection in shiny beatle shell'></img>
+        <img style={{ top: "70%", left: "16%", width: '15%' }} src='images/blackBird_contrail.jpg' alt='black bird sky and airplane contrail'></img>
+        <img style={{ top: "53%", left: "40%", width: '25%' }} src='images/windmills_sky_atmosphere.jpg' alt='windmills and clouds'></img> 
+        <img style={{ top: "73%", right: "28%", width: '15%' }} src='images/Wuhan_rags and riches.jpg' alt='alley in Wuhan'></img>
+        <img style={{ top: "50%", right: "3%", width: '11%' }} src='images/reeds_and_Pond.jpg' alt='reeds in a pond'></img>   
     </div>
     </div>
 </body>

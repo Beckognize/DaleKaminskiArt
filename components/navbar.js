@@ -9,14 +9,20 @@ export default () => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
         <Nav className="justify-content-end">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#link">About</Nav.Link>
+          <Nav.Link href="/">Home</Nav.Link>
+          <Nav.Link href="#link">CV</Nav.Link>
           <NavDropdown title="Work" id="basic-nav-dropdown" align="end">
-            <NavDropdown.Item href="#action/3.1">Landscapes</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">Twisted Figures</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.3">Interactive Gallery</NavDropdown.Item>
+            <NavDropdown.Item href="/people">People</NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.2">Art</NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.3">America</NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.3">Flower</NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.3">Graphic</NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.3">Self Portrait</NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.3">Tier 2</NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.3">Topographics</NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.3">Travels</NavDropdown.Item>
             <NavDropdown.Divider />
-            <NavDropdown.Item href="#action/3.4">Contact</NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.4">Contact Me</NavDropdown.Item>
           </NavDropdown>
         </Nav>
       </Navbar.Collapse>
