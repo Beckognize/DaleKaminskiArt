@@ -5,7 +5,7 @@ export default () => {
     return (
   <Navbar expand="lg" style={{zIndex:100,backgroundColor:'white',fontSize:'150%'}}>
     <Container fluid>
-      <Navbar.Brand style={{fontSize:'150%'}} href="#home">Dale Kaminski</Navbar.Brand>
+      <Navbar.Brand style={{fontSize:'150%'}} href="/">Dale Kaminski</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
         <Nav className="justify-content-end">

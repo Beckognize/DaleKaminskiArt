@@ -11,8 +11,8 @@ export default () => {
    <div className = 'container-fluid'>
     <div className ='photobox'>
         <Link href='/people'><a><img style={{ top: "15%", right: "18%", width: '16%' }} src='images/DawnV_1.jpg' alt='woman jumping'></img></a></Link>
-        <Link href='/flower'><a><img style={{ top: "40%", right: "35%", width: '7%' }} src='images/Bee_polen_flower.jpg' alt='flower and bee'></img></a></Link>
-        <Link href='/flower'><a><img style={{ top: "40%", left: "50%", width: '7%' }} src='images/lotus.jpg' alt='lotus flower'></img></a></Link>
+        
+        <Link href='/flower'><a><img style={{ top: "40%", left: "45%", width: '18%' }} src='images/lotus.jpg' alt='lotus flower'></img></a></Link>
         <Link href='/travels'><a><img style={{ top: "20%", left: "25%", width: '16%' }} src='images/Hail_Badger.jpg' alt='large ship'></img></a></Link>
         <Link href='/america'><a><img style={{ top: "8%", left: "14%", width: '18%' }} src='images/MainStreet_flags_america.jpg' alt='pickup truck with many american flags'></img></a></Link>
         <Link href='/selfportrait'><a><img style={{ top: "45%", left: "2%", width: '18%' }} src='images/shiny_bug_selfPortrait-6.jpg' alt='reflection in shiny beatle shell'></img></a></Link>
