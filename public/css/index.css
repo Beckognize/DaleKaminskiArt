@@ -106,3 +106,14 @@ body{
 .carousel-control-next-icon{
   right:1rem;
 }
+
+.carousel-caption {
+ 
+  position:fixed;
+  left: 3rem;
+  right:3rem;
+  bottom:0;
+  color: black;
+  text-align: center;
+  height:4rem;
+}

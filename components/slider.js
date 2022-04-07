@@ -40,6 +40,9 @@ export default ({visible, exit, images, imageNumber, selectImage}) => {
                 backgroundSize: 'contain',
               }}
               />
+              <Carousel.Caption>
+              {image?.caption} 
+              </Carousel.Caption>
         </Carousel.Item>
       )}
       </Carousel>

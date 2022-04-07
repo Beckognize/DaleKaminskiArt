@@ -12,6 +12,7 @@ const myImages = [
   {
     src:'images/people/studentshadow.jpg',
     alt:'group of people with umbrella',
+    caption:'Students in Wuhan taking pictures of their shadows',
     style:{ top: "0%", left: "29%", width: '25%' }
   },
   {
