@@ -14,61 +14,61 @@ const myImages = [
     src:'images/topographics/grainsilos1.jpg',
     alt:'grain silo',
     caption:'Silo2 (Homage to Bechers)',
-    style:{ top: "0%", left: "29%", width: '25%' }
+    style:{ top: "0%", left: "29%", width: '35%' }
   },
   {
     src: 'images/topographics/small_lighthouse.jpg',
     alt: 'small lighthouse in distance',
     caption:'Lighthouse',
-    style: { top: "0%", right: "30%", width: '15%' }
+    style: { top: "85%", right: "20%", width: '20%' }
   },
   {
     src:'images/topographics/3electrictower.jpg' ,
     alt:'three electric towers',
     caption:'Powerline Towers',
-    style: { top: "0%", right: "15%", width: '15%' }
+    style: { top: "70%", right: "42%", width: '30%' }
   },
   {
     src:'images/topographics/silosquare.jpg' ,
     alt:'grain silo',
     caption:'Silo3',
-    style: { top: "0%", right: "0%", width: '15%' }
+    style: { top: "25%", right: "0%", width: '18%' }
   },
   {
     src:'images/topographics/silosugar.jpg',
     alt:'sugar silo',
     caption:'Silo4 (Sugar City , Homage to Bechers)',
-    style:{ top: "26%", left: "0%", width: '13%' }
+    style:{ top: "25%", right: "18%", width: '22%' }
   },
   {
     src:'images/topographics/odetosilo.jpg',
     alt:'grain silo',
     caption:'Silo5 (Homage to Bechers)',
-    style:{ top: "26%", left: "15%", width: '15%' }
+    style:{ top: "42%", left: "0%", width: '25%' }
   },
   {
     src:'images/topographics/odetosilo9.jpg',
     alt:'grain silo',
     caption:'Silo6 (Homage to Bechers)',
-    style:{ top: "26%", left: "33%", width: '16%' }
+    style:{ top: "26%", left: "29%", width: '30%' }
   },
   {
     src:'images/topographics/topocortez.jpg',
     alt:'landscape',
     caption:'Dispensary Cortez, Colorado',
-    style:{ top: "27%", right: "36%", width: '14%' }
+    style:{ top: "64%", right: "0%", width: '40%' }
   },
   {
     src:'images/topographics/stopsigns.jpg',
     alt:'group of stop signs',
     caption:'No Motor vehicles and 4 stop signs',
-    style:{top: "30%", right: "23%", width: '11%' }
+    style:{top: "85%", left: "0%", width: '25%' }
   },
   {
     src:'images/topographics/windmills.jpg',
     alt:'windmills across sky',
     caption:'Wind Farm on the great plains',
-    style:{top: "27%", right: "0%", width: '20%' }
+    style:{top: "3%", right: "0%", width: '36%' }
   },
   
 ]

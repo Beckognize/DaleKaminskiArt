@@ -5,6 +5,18 @@ import Slider from '../components/slider'
 
 const myImages = [
   {
+    src:'images/america/flags.jpg',
+    alt:'pickup truck with many american flags',
+    caption:'Main Street 2021',
+    style:{top: "0%", leftt: "0%", width: '30%' }
+  },
+  {
+    src:'images/america/bonfire.jpg' ,
+    alt:'A bonfire on the beach with a band',
+    caption:'"BonFire Beach," Luddington, Michigan.',
+    style: { top: "0%", left: "30%", width: '40%' }
+  },
+  {
     src:'images/america/cloudflag.jpg',
     alt:'american flag in stormy weather',
     caption:'Camping World Giant Flag',
@@ -14,19 +26,13 @@ const myImages = [
     src:'images/america/flagbar1.jpg',
     alt:'American decorations on bar in resturant',
     caption:'"Right Wing Dinner," Ohio',
-    style:{ top: "0%", left: "29%", width: '30%' }
+    style:{ top: "20%", left: "29%", width: '30%' }
   },
   {
     src: 'images/america/flagbar2.jpg',
     alt: 'American decorations on wall in bar',
     caption:'"Right Wing Dinner 2," Ohio',
-    style: { top: "0%", right: "30%", width: '30%' }
-  },
-  {
-    src:'images/america/bonfire.jpg' ,
-    alt:'A bonfire on the beach with a band',
-    caption:'"BonFire Beach," Luddington, Michigan.',
-    style: { top: "0%", right: "15%", width: '30%' }
+    style: { top: "20%", right: "30%", width: '30%' }
   },
   {
     src:'images/america/flagbar3.jpg' ,
@@ -59,12 +65,6 @@ const myImages = [
     style:{top: "27%", right: "0%", width: '30%' }
   },
    {
-    src:'images/america/flags.jpg',
-    alt:'pickup truck with many american flags',
-    caption:'Main Street 2021',
-    style:{top: "0%", leftt: "0%", width: '30%' }
-  },
- {
     src:'images/america/caution3.jpg',
     alt:'caution tape on baby swing',
     caption:'Kiddie Swing Police Line',
