@@ -17,28 +17,10 @@ const myImages = [
     style:{ top: "0%", left: "29%", width: '35%' }
   },
   {
-    src: 'images/topographics/small_lighthouse.jpg',
-    alt: 'small lighthouse in distance',
-    caption:'Lighthouse',
-    style: { top: "85%", right: "20%", width: '20%' }
-  },
-  {
-    src:'images/topographics/3electrictower.jpg' ,
-    alt:'three electric towers',
-    caption:'Powerline Towers',
-    style: { top: "70%", right: "42%", width: '30%' }
-  },
-  {
-    src:'images/topographics/silosquare.jpg' ,
-    alt:'grain silo',
-    caption:'Silo3',
-    style: { top: "25%", right: "0%", width: '18%' }
-  },
-  {
-    src:'images/topographics/silosugar.jpg',
-    alt:'sugar silo',
-    caption:'Silo4 (Sugar City , Homage to Bechers)',
-    style:{ top: "25%", right: "18%", width: '22%' }
+    src:'images/topographics/windmills.jpg',
+    alt:'windmills across sky',
+    caption:'Wind Farm on the great plains',
+    style:{top: "3%", right: "0%", width: '36%' }
   },
   {
     src:'images/topographics/odetosilo.jpg',
@@ -53,10 +35,16 @@ const myImages = [
     style:{ top: "26%", left: "29%", width: '30%' }
   },
   {
-    src:'images/topographics/topocortez.jpg',
-    alt:'landscape',
-    caption:'Dispensary Cortez, Colorado',
-    style:{ top: "64%", right: "0%", width: '40%' }
+    src:'images/topographics/silosugar.jpg',
+    alt:'sugar silo',
+    caption:'Silo4 (Sugar City , Homage to Bechers)',
+    style:{ top: "25%", right: "18%", width: '22%' }
+  },
+  {
+    src:'images/topographics/silosquare.jpg' ,
+    alt:'grain silo',
+    caption:'Silo3',
+    style: { top: "25%", right: "0%", width: '18%' }
   },
   {
     src:'images/topographics/stopsigns.jpg',
@@ -65,13 +53,24 @@ const myImages = [
     style:{top: "85%", left: "0%", width: '25%' }
   },
   {
-    src:'images/topographics/windmills.jpg',
-    alt:'windmills across sky',
-    caption:'Wind Farm on the great plains',
-    style:{top: "3%", right: "0%", width: '36%' }
+    src:'images/topographics/3electrictower.jpg' ,
+    alt:'three electric towers',
+    caption:'Powerline Towers',
+    style: { top: "70%", right: "42%", width: '30%' }
   },
-  
-]
+  {
+    src: 'images/topographics/small_lighthouse.jpg',
+    alt: 'small lighthouse in distance',
+    caption:'Lighthouse',
+    style: { top: "85%", right: "20%", width: '20%' }
+  },
+  {
+    src:'images/topographics/topocortez.jpg',
+    alt:'landscape',
+    caption:'Dispensary Cortez, Colorado',
+    style:{ top: "64%", right: "0%", width: '40%' }
+  },
+  ]
 
         
             

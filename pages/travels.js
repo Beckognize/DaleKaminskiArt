@@ -53,12 +53,6 @@ const myImages = [
     style:{ top: "26%", left: "33%", width: '16%' }
   },
   {
-    src:'images/travels/flatroad.jpg',
-    alt:'flat road panorama',
-    caption:'"Road", Rural Kansas.',
-    style:{ top: "27%", right: "36%", width: '14%' }
-  },
-  {
     src:'images/travels/ghostship.jpg',
     alt:'ship in the distance',
     caption:'"Ghost Ship", Luddington, Michigan.',
