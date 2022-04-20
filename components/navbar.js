@@ -5,21 +5,21 @@ export default () => {
     return (
   <Navbar expand="lg" style={{zIndex:100,backgroundColor:'white',fontSize:'150%'}}>
     <Container fluid>
-      <Navbar.Brand style={{fontSize:'150%'}} href="/">Dale Kaminski</Navbar.Brand>
+      <Navbar.Brand style={{fontSize:'120%'}} href="/">Dale Kaminski</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
         <Nav className="justify-content-end">
           <Nav.Link href="/">Home</Nav.Link>
           <Nav.Link href="#link">CV</Nav.Link>
           <NavDropdown title="Work" id="basic-nav-dropdown" align="end">
-            <NavDropdown.Item href="/america">America</NavDropdown.Item>
-            <NavDropdown.Item href="/art">Art</NavDropdown.Item>
-            <NavDropdown.Item href="/flower">Flower</NavDropdown.Item>
-            <NavDropdown.Item href="/graphic">Graphic</NavDropdown.Item>
-            <NavDropdown.Item href="/people">People</NavDropdown.Item>
-            <NavDropdown.Item href="/selfportrait">Self Portrait</NavDropdown.Item>
-            <NavDropdown.Item href="/topographics">Topographics</NavDropdown.Item>
-            <NavDropdown.Item href="/travels">Travels</NavDropdown.Item>
+            <NavDropdown.Item href="/gallery1">Gallery 1</NavDropdown.Item>
+            <NavDropdown.Item href="/gallery2">Gallery 2</NavDropdown.Item>
+            <NavDropdown.Item href="/gallery3">Gallery 3</NavDropdown.Item>
+            <NavDropdown.Item href="/gallery4">Gallery 4</NavDropdown.Item>
+            <NavDropdown.Item href="/gallery5">Gallery 5</NavDropdown.Item>
+            <NavDropdown.Item href="/gallery6">Gallery 6</NavDropdown.Item>
+            <NavDropdown.Item href="/gallery7">Gallery 7</NavDropdown.Item>
+            <NavDropdown.Item href="/gallery8">Gallery 8</NavDropdown.Item>
             <NavDropdown.Divider />
             <NavDropdown.Item href="#action/3.4">Contact Me</NavDropdown.Item>
           </NavDropdown>

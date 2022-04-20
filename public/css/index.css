@@ -11,10 +11,12 @@ body{
     width: 95%;
     max-width: 1500px;
     margin: auto;
-    xaspect-ratio: 1/1;
+    xaspect-ratio: 1/2;
     height:95vw;
    max-height:1500px;
+   
 }
+
 
 .photobox img{
     position: absolute;

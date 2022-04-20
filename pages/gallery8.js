@@ -222,7 +222,7 @@ export default () => {
       <Header />
       <Navbar />
       <div className='container-fluid'>
-        <h1 className='text-center mt-5 mb-5 fs-1 fw-normal '>TRAVELS</h1>
+        <h1 className='text-center mt-5 mb-5 fs-1 fw-normal '>GALLERY 8</h1>
         <div className='photobox'>
           {myImages.map((image, i) =>
             <img 
