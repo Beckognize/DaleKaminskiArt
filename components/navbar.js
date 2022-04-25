@@ -21,7 +21,7 @@ export default () => {
             <NavDropdown.Item href="/gallery7">Gallery 7</NavDropdown.Item>
             <NavDropdown.Item href="/gallery8">Gallery 8</NavDropdown.Item>
             <NavDropdown.Divider />
-            <NavDropdown.Item href="#action/3.4">Contact Me</NavDropdown.Item>
+            <NavDropdown.Item href="/contact">Contact Me</NavDropdown.Item>
           </NavDropdown>
         </Nav>
       </Navbar.Collapse>

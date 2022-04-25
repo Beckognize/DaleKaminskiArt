@@ -4,6 +4,40 @@ body{
     background-color: white;
     
 }
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight:normal;
+}
+
+.conbox{ 
+   
+  position:relative;
+    width: 95%;
+    max-width: 1500px;
+    margin: auto;
+    xaspect-ratio: 1/2;
+    height:95vw;
+   max-height:1500px;
+  
+  }
+
+.xa{
+  white-space: pre;
+}
+.wordbox{
+  position:relative;
+  height: 50%;
+  width: 100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
 .photobox{ 
    
@@ -14,7 +48,7 @@ body{
     xaspect-ratio: 1/2;
     height:95vw;
    max-height:1500px;
-   
+  
 }
 
 
