@@ -25,7 +25,14 @@ h1 {
    max-height:1500px;
   
   }
-
+p{
+  font-size:1.2rem;
+}
+.words
+{
+  max-width:50rem;
+  font-size:1.2rem;
+}
 .xa{
   white-space: pre;
 }

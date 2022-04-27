@@ -9,8 +9,16 @@ const myImages = [
     alt:'lotus blossom',
     style:{ top: "0%", left: "0%", width: '26%' }
   },
-
-
+  {
+    src:'images/flower/peony-22.jpg',
+    alt:'peony flower',
+    style:{top: "0%", left: "26%", width: '26%' }
+  },
+ {
+    src:'images/flower/waterdrops.jpg' ,
+    alt:'flower with water droplets',
+    style: { top: "0%", right: "24%", width: '24%' }
+  }, 
   {
     src:'images/flower/beeflower.jpg',
     alt:'bee with pollen on flower',
@@ -46,7 +54,11 @@ const myImages = [
     alt:'drop of resin on leaf',
     style:{top: "52%", left: "45%", width: '15%' }
   },
-
+  {
+    src:'images/flower/pinecone.jpg',
+    alt:'closeup pine cone flower',
+    style:{top: "52%", right: "24%", width: '15%' }
+  },
   {
     src: 'images/flower/flowerbridge.jpg',
     alt: 'bridge with flowers',
@@ -57,7 +69,11 @@ const myImages = [
     alt:'tall bush with trees',
     style:{top: "36%", right: "0%", width: '24%' }
   },
-
+  {
+    src:'images/flower/snowtree.jpg' ,
+    alt:'tree with snow by lake',
+    style: { top: "73%", right: "57%", width: '20%' }
+  },
   {
     src:'images/flower/twist2.jpg',
     alt:'twisted wood in desert',

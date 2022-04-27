@@ -10,7 +10,7 @@ export default () => {
       <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
         <Nav className="justify-content-end">
           <Nav.Link href="/">Home</Nav.Link>
-          <Nav.Link href="#link">CV</Nav.Link>
+          <Nav.Link href="/bio">Biography</Nav.Link>
           <NavDropdown title="Work" id="basic-nav-dropdown" align="end">
             <NavDropdown.Item href="/gallery1">Gallery 1</NavDropdown.Item>
             <NavDropdown.Item href="/gallery2">Gallery 2</NavDropdown.Item>
