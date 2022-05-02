@@ -72,6 +72,32 @@ p{
     
 }
 
+.frontbox{ 
+   
+  position:relative;
+    width: 95%;
+    max-width: 1500px;
+    margin: auto;
+    xaspect-ratio: 1/2;
+    height:95vw;
+   max-height:1500px;
+  
+}
+
+
+.frontbox img{
+    position: absolute;
+    transition: all 1s;
+    xborder: .3rem solid white;
+}
+.frontbox img:hover{
+    z-index:1;
+    transform: scale(1.12);
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 1);
+    cursor: pointer;
+    
+}
+
 .outerbox{
     position: absolute;
     top:0;
