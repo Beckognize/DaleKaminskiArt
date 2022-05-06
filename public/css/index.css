@@ -50,11 +50,12 @@ p{
    
   position:relative;
     width: 95%;
-    max-width: 1500px;
+    max-width: 1400px;
     margin: auto;
     xaspect-ratio: 1/2;
     height:95vw;
    max-height:1500px;
+   
   
 }
 
@@ -62,14 +63,14 @@ p{
 .photobox img{
     position: absolute;
     transition: all 1s;
-    border: .3rem solid white;
+    border: .3rem solid transparent;
 }
 .photobox img:hover{
     z-index:1;
     transform: scale(1.05);
     box-shadow: 0 0 1rem rgba(0, 0, 0, 1);
     cursor: pointer;
-    
+    border: .3rem solid white;
 }
 
 .frontbox{ 
