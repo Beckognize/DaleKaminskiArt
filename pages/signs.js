@@ -10,12 +10,6 @@ const myImages = [
     caption:'Main Street 2021',
     style:{top: "0%", left: "0%", width: '30%' }
   },
-  {
-    src:'images/america/flatroad.jpg',
-    alt:'flat road panorama',
-    caption:'"Road", Rural Kansas.',
-    style:{ top: "5%", right: "00%", width: '65%' }
-  },
    {
     src:'images/america/flagbar1.jpg',
     alt:'American decorations on bar in resturant',
@@ -62,13 +56,31 @@ const myImages = [
     src:'images/america/caution3.jpg',
     alt:'caution tape on baby swing',
     caption:'Kiddie Swing Police Line',
-    style:{top: "135%", right: "40%", width: '17%' }
+    style:{top: "162%", left: "10%", width: '17%' }
   },
   {
-    src:'images/america/bowpeeps.jpg',
-    alt:'people on the bow of a boat',
-    caption:'Deck of the Badger Crossing Lake Michigan',
-    style:{top: "140%", right: "0%", width: '28%' }
+    src:'images/america/fall.jpg',
+    alt:'man on ground woman on phone',
+    caption:'',
+    style:{top: "120%", right: "40%", width: '17%' }
+  },
+  {
+    src:'images/people/3peopleriver.jpg',
+    alt:'three people in river',
+    caption:'"Huron River," Ann Arbor, Michigan.',
+    style:{ top: "150%", right: "2%", width: '30%' }
+  },
+  {
+    src:'images/people/sitinshit.jpg',
+    alt:'people sitting by river',
+    caption:'"Sitting in Shit," Manitowoc, Wisconsin.',
+    style:{ top: "158%", right: "40%", width: '17%' }
+  },
+  {
+    src:'images/people/conriver.jpg',
+    alt:'people in river',
+    caption:'"Flags in Connecticut River," Connecticut river, Connecticut.',
+    style:{top: "190%", left: "0%", width: '55%' }
   },
 
 ]
@@ -87,7 +99,7 @@ export default () => {
       <Header />
       <Navbar />
       <div className='container-fluid'>
-        <h1 className='text-center mt-5 mb-5 fs-1 fw-normal '>GALLERY 1</h1>
+        <h1 className='text-center mt-5 mb-5 fs-1 fw-normal '>Sign of the Times</h1>
         <div className='photobox'>
           {myImages.map((image, i) =>
             <img 

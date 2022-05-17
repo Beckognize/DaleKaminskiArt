@@ -107,24 +107,6 @@ const myImages = [
     style:{top: "228%", right: "32%", width: '27.5%' }
   },
   {
-    src:'images/graphic/sculpture.jpg',
-    alt:'marble sculpture and text',
-    caption:'',
-    style:{ top: "272%", left: "20%", width: '18%' }
-  },
-  {
-    src:'images/graphic/listen.jpg',
-    alt:'bird house green leaves and text',
-    caption:'',
-    style:{ top: "272%", left: "38%", width: '18%' }
-  },
-  {
-    src:'images/graphic/plasticland.jpg',
-    alt:'Band poster that says plasticland',
-    caption:'',
-    style:{top: "300%", left: "15%", width: '30%' }
-  },
-  {
     src:'images/graphic/buildingA.jpg',
     alt:'front entrance to building A',
     caption:'A Entrance',
@@ -136,12 +118,7 @@ const myImages = [
     caption:'View of Chicago in Cloud Gate',
     style:{top: "315%", right: "17.5%", width: '19%' }
   },
-  {
-    src:'images/graphic/nytrain.jpg',
-    alt:'digitally altered panorama of newyork subway train',
-    caption:'Clark Street Subway Station',
-    style:{ top: "343%", right: "18%", width: '70%' }
-  },
+ 
   
 ]
 
@@ -159,7 +136,7 @@ export default () => {
       <Header />
       <Navbar />
       <div className='container-fluid'>
-        <h1 className='text-center mt-5 mb-5 fs-1 fw-normal '>GALLERY 4</h1>
+        <h1 className='text-center mt-5 mb-5 fs-1 fw-normal '>Picturesque</h1>
         <div className='photobox'>
           {myImages.map((image, i) =>
             <img 

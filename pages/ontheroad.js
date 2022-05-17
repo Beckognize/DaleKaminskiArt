@@ -86,25 +86,25 @@ const myImages = [
     src:'images/travels/plume.jpg',
     alt:'plume of steam from power plant in winter',
     caption:'"Plume", Whitewater, Wisconsin.',
-    style:{top: "146%", right: "1%", width: '25%' }
+    style:{top: "147%", right: "1%", width: '25%' }
   },
   {
     src:'images/travels/nysmoke.jpg',
     alt:'steam coming out of NY subway',
     caption:'"Steam Vent", New York City.',
-    style:{ top: "169%", right:"0%", width: '27%' }
+    style:{ top: "172%", right:"2%", width: '22%' }
   }, 
   {
     src:'images/travels/hailbadger.jpg',
     alt:'large ship coming into port', 
     caption:'"Kid and Badger Car Ferry", Luddington, Michigan.',        
-    style:{top: "206%", right: "1%", width: '26%' } 
+    style:{top: "204%", right: "1%", width: '26%' } 
   },
   {
     src:'images/travels/yangtze.jpg',
     alt:'a swimmer in the yangtze river with city in the distance',
     caption:'"Yangtze Swimmer", Wuhan, China.',
-    style:{ top: "230%", right:"1%", width: '26%' }
+    style:{ top: "229%", right:"1%", width: '26%' }
   },
   {
     src:'images/travels/wuhanally.jpg',
@@ -116,13 +116,13 @@ const myImages = [
     src:'images/travels/jukejoint.jpg',
     alt:'Juke joint',
     caption:'"Juke Joint 3 AM", Clarksville, Mississippi.',
-    style:{top: "287%", right: "0%", width: '27%' }
+    style:{top: "289%", right: "2%", width: '25%' }
   },
   {
     src:'images/travels/panovert2.jpg',
     alt:'panorama of street with old theater in a vertical orientaion',
     caption:'"Paramount Theater (Palindrome)" Clarksville, Mississippi.',
-    style:{top: "313%", right: "2%", width: '25%' }
+    style:{top: "315%", right: "2%", width: '25%' }
   },
   {
     src:'images/travels/wuhanstack.jpg',
@@ -133,7 +133,7 @@ const myImages = [
   {
     src:'images/travels/farmwindmills.jpg',
     alt:'road with farm and windmills in he background',
-    caption:'',
+    caption:'Three Windmills',
     style:{ top: "312%", right: "31%", width: '30%' }
   },
   {
@@ -152,7 +152,7 @@ const myImages = [
     src:'images/travels/cowvally.jpg',
     alt:'cows in a valley',
     caption:'"Cattle in Valley", Driftless region, Wisconsin.',
-    style:{ top: "401%", right: "10%", width: '42%' }
+    style:{ top: "410%", right: "10%", width: '38%' }
   },
   {
     src:'images/travels/hudsonriver.jpg',
@@ -164,38 +164,32 @@ const myImages = [
     src:'images/travels/longtrain.jpg',
     alt:'long train by road',
     caption:'"Vanishing Train", Kansas.',
-    style:{ top: "440%", left: "2%", width: '56%' }
+    style:{ top: "445%", left: "2%", width: '56%' }
   },
   {
     src:'images/travels/mirrorswamp.jpg',
     alt:'swamp with reflection in water',
     caption:'"Bark River", Fort Atkinson, Wisconsin.',
-    style:{ top: "434%", right:"0%", width: '18%' }
+    style:{ top: "444%", right:"0%", width: '18%' }
   },
   {
     src:'images/travels/barkriver.jpg' ,
     alt:'reflection in the bark river',
     caption:'"Bark River Flood", Fort Atkinson, Wisconsin.',
-    style: { top: "445%", right: "12%", width: '27%' }
+    style: { top: "455%", right: "12%", width: '27%' }
   },
   {
     src:'images/travels/deathvally.jpg',
     alt:'Dry tree in deathvalley',
     caption:'"Tree", Death Valley, California. ',
-    style:{ top: "469%", left: "22%", width: '50%' }
+    style:{ top: "478%", left: "22%", width: '50%' }
   },
   {
     src:'images/travels/lonelyroad.jpg',
     alt:'long road with green grass and blue sky',
     caption:'"Road", Eastern Colorado.',
-    style:{ top: "536%", right: "2%", width: '50%' }
+    style:{ top: "550%", right: "2%", width: '50%' }
   }, 
-  {
-    src:'images/travels/farmtrain.jpg',
-    alt:'train on a big farm',
-    caption:'"Farm on the Plains", Somewhere in Iowa.',
-    style:{ top: "580%", right: "2%", width: '75%' }
-  },
   {
     src:'images/travels/ghostship.jpg',
     alt:'ship in the distance',
@@ -206,7 +200,7 @@ const myImages = [
     src:'images/travels/wolfcreek.jpg',
     alt:'wolf creek valley',
     caption:'"Wolf Creek Pass", Continental divide, Colorado.',
-    style:{ top: "608%", left: "0%", width: '100%' }
+    style:{ top: "590%", left: "0%", width: '100%' }
   },
  
 
@@ -225,7 +219,7 @@ export default () => {
       <Header />
       <Navbar />
       <div className='container-fluid'>
-        <h1 className='text-center mt-5 mb-5 fs-1 fw-normal '>GALLERY 8</h1>
+        <h1 className='text-center mt-5 mb-5 fs-1 fw-normal '>On the Road</h1>
         <div className='photobox'>
           {myImages.map((image, i) =>
             <img 

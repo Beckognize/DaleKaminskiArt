@@ -70,6 +70,12 @@ const myImages = [
     caption:'Dispensary Cortez, Colorado',
     style:{ top: "64%", right: "0%", width: '40%' }
   },
+  {
+    src:'images/travels/farmtrain.jpg',
+    alt:'train on a big farm',
+    caption:'"Farm on the Plains", Somewhere in Iowa.',
+    style:{ top: "116%", right: "2%", width: '75%' }
+  },
   ]
 
         
@@ -86,7 +92,7 @@ export default () => {
       <Header />
       <Navbar />
       <div className='container-fluid'>
-        <h1 className='text-center mt-5 mb-5 fs-1 fw-normal '>GALLERY 7</h1>
+        <h1 className='text-center mt-5 mb-5 fs-1 fw-normal '>New Topographics</h1>
         <div className='photobox'>
           {myImages.map((image, i) =>
             <img 

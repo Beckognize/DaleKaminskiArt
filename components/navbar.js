@@ -11,15 +11,16 @@ export default () => {
         <Nav className="justify-content-end">
           <Nav.Link href="/">Home</Nav.Link>
           <Nav.Link href="/bio">Biography</Nav.Link>
+          <Nav.Link href="/cv">CV</Nav.Link>
           <NavDropdown title="Work" id="basic-nav-dropdown" align="end">
-            <NavDropdown.Item href="/gallery1">Gallery 1</NavDropdown.Item>
-            <NavDropdown.Item href="/gallery2">Gallery 2</NavDropdown.Item>
-            <NavDropdown.Item href="/gallery3">Gallery 3</NavDropdown.Item>
-            <NavDropdown.Item href="/gallery4">Gallery 4</NavDropdown.Item>
-            <NavDropdown.Item href="/gallery5">Gallery 5</NavDropdown.Item>
-            <NavDropdown.Item href="/gallery6">Gallery 6</NavDropdown.Item>
-            <NavDropdown.Item href="/gallery7">Gallery 7</NavDropdown.Item>
-            <NavDropdown.Item href="/gallery8">Gallery 8</NavDropdown.Item>
+            <NavDropdown.Item href="/signs">Sign of the Times </NavDropdown.Item>
+            <NavDropdown.Item href="/collage">Collage and Experimental</NavDropdown.Item>
+            <NavDropdown.Item href="/flowers">Flowers and Insects</NavDropdown.Item>
+            <NavDropdown.Item href="/picture">Picturesque</NavDropdown.Item>
+            <NavDropdown.Item href="/people">People</NavDropdown.Item>
+            <NavDropdown.Item href="/self">Self Portrait</NavDropdown.Item>
+            <NavDropdown.Item href="/newtop">New Topographics</NavDropdown.Item>
+            <NavDropdown.Item href="/ontheroad">On the Road</NavDropdown.Item>
             <NavDropdown.Divider />
             <NavDropdown.Item href="/contact">Contact Me</NavDropdown.Item>
           </NavDropdown>

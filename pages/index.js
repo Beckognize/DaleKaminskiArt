@@ -9,7 +9,7 @@ export default () => {
       <body>
         <div className="container-fluid">
           <div className="frontbox">
-            <Link href="/gallery8">
+            <Link href="/ontheroad">
               <a>
                 <img
                   style={{ top: "5%", right: "0%", width: "100%" }}
@@ -18,7 +18,7 @@ export default () => {
                 ></img>
               </a>
             </Link>
-            <Link href="/gallery8">
+            <Link href="/ontheroad">
               <a>
                 <img
                   style={{ top: "61%", left: "0%", width: "80%" }}
@@ -27,7 +27,7 @@ export default () => {
                 ></img>
               </a>
             </Link>
-            <Link href="/gallery8">
+            <Link href="/ontheroad">
               <a>
                 <img
                   style={{ top: "76%", left: "0%", width: "80%" }}
@@ -36,7 +36,7 @@ export default () => {
                 ></img>
               </a>
             </Link>
-            <Link href="/gallery1">
+            <Link href="/ontheroad">
               <a>
                 <img
                   style={{ top: "92%", left: "0%", width: "80%" }}
@@ -45,7 +45,7 @@ export default () => {
                 ></img>
               </a>
             </Link>
-            <Link href="/gallery8">
+            <Link href="/ontheroad">
               <a>
                 <img
                   style={{ top: "55%", right: "0%", width: "15%" }}
@@ -54,7 +54,7 @@ export default () => {
                 ></img>
               </a>
             </Link>
-            <Link href="/gallery5">
+            <Link href="/people">
               <a>
                 <img
                   style={{ top: "109%", left: "0%", width: "18%" }}
@@ -63,7 +63,7 @@ export default () => {
                 ></img>
               </a>
             </Link>
-            <Link href="/gallery5">
+            <Link href="/people">
               <a>
                 <img
                   style={{ top: "109%", left: "20%", width: "18%" }}
@@ -72,7 +72,7 @@ export default () => {
                 ></img>
               </a>
             </Link>
-            <Link href="/gallery5">
+            <Link href="/people">
               <a>
                 <img
                   style={{ top: "109%", left: "40%", width: "18%" }}
@@ -81,7 +81,7 @@ export default () => {
                 ></img>
               </a>
             </Link>
-            <Link href="/gallery5">
+            <Link href="/people">
               <a>
                 <img
                   style={{ top: "142%", left: "11%", width: "38%" }}
@@ -90,7 +90,7 @@ export default () => {
                 ></img>
               </a>
             </Link>
-            <Link href="/gallery5">
+            <Link href="/people">
               <a>
                 <img
                   style={{ top: "131%", right: "19%", width: "28%" }}
@@ -99,7 +99,7 @@ export default () => {
                 ></img>
               </a>
             </Link>
-            <Link href="/gallery5">
+            <Link href="/people">
               <a>
                 <img
                   style={{ top: "172%", left: "5%", width: "21%" }}
@@ -108,7 +108,7 @@ export default () => {
                 ></img>
               </a>
             </Link>
-            <Link href="/gallery3">
+            <Link href="/flowers">
               <a>
                 <img
                   style={{ top: "172%", right: "5%", width: "35%" }}
@@ -117,7 +117,7 @@ export default () => {
                 ></img>
               </a>
             </Link>
-            <Link href="/gallery3">
+            <Link href="/flowers">
               <a>
                 <img
                   style={{ top: "189%", right: "0%", width: "32%" }}
@@ -126,7 +126,7 @@ export default () => {
                 ></img>
               </a>
             </Link>
-            <Link href="/gallery3">
+            <Link href="/flowers">
               <a>
                 <img
                   style={{ top: "183%", right: "35%", width: "35%" }}
@@ -135,7 +135,7 @@ export default () => {
                 ></img>
               </a>
             </Link>
-            <Link href="/gallery8">
+            <Link href="/ontheroad">
               <a>
                 <img
                   style={{ top: "207%", left: "2%", width: "50%" }}
@@ -144,7 +144,7 @@ export default () => {
                 ></img>
               </a>
             </Link>
-            <Link href="/gallery8">
+            <Link href="/ontheroad">
               <a>
                 <img
                   style={{ top: "238%", left: "5%", width: "26%" }}
@@ -153,7 +153,7 @@ export default () => {
                 ></img>
               </a>
             </Link>
-            <Link href="/gallery4">
+            <Link href="/picture">
               <a>
                 <img
                   style={{ top: "233%", right: "5%", width: "60%" }}
@@ -162,7 +162,7 @@ export default () => {
                 ></img>
               </a>
             </Link>
-            <Link href="/gallery8">
+            <Link href="/ontheroad">
               <a>
                 <img
                   style={{ top: "267%", right: "25%", width: "19%" }}
@@ -172,7 +172,7 @@ export default () => {
               </a>
             </Link>
 
-            <Link href="/gallery8">
+            <Link href="/ontheroad">
               <a>
                 <img
                   style={{ top: "254%", left: "28%", width: "33%" }}
@@ -181,7 +181,7 @@ export default () => {
                 ></img>
               </a>
             </Link>
-            <Link href="/gallery6">
+            <Link href="/self">
               <a>
                 <img
                   style={{ top: "273%", left: "0%", width: "48%" }}
@@ -191,7 +191,7 @@ export default () => {
               </a>
             </Link>
 
-            <Link href="/gallery6">
+            <Link href="/self">
               <a>
                 <img
                   style={{ top: "305%", left: "10%", width: "28%" }}
@@ -200,7 +200,7 @@ export default () => {
                 ></img>
               </a>
             </Link>
-            <Link href="/gallery8">
+            <Link href="/ontheroad">
               <a>
                 <img
                   style={{ top: "261%", right: "5%", width: "16%" }}
@@ -209,7 +209,7 @@ export default () => {
                 ></img>
               </a>
             </Link>
-            <Link href="/gallery1">
+            <Link href="/signs">
               <a>
                 <img
                   style={{ top: "287%", right: "25%", width: "15%" }}
@@ -218,7 +218,7 @@ export default () => {
                 ></img>
               </a>
             </Link>
-            <Link href="/gallery8">
+            <Link href="/ontheroad">
               <a>
                 <img
                   style={{ top: "320%", right: "24%", width: "34%" }}
@@ -227,7 +227,7 @@ export default () => {
                 ></img>
               </a>
             </Link>
-            <Link href="/gallery1">
+            <Link href="/signs">
               <a>
                 <img
                   style={{ top: "331%", right: "2%", width: "28%" }}
@@ -236,7 +236,7 @@ export default () => {
                 ></img>
               </a>
             </Link>
-            <Link href="/gallery4">
+            <Link href="/picture">
               <a>
                 <img
                   style={{ top: "345%", leftt: "5%", width: "28%" }}
@@ -245,7 +245,7 @@ export default () => {
                 ></img>
               </a>
             </Link>
-            <Link href="/gallery4">
+            <Link href="/picture">
               <a>
                 <img
                   style={{ top: "365%", left: "15%", width: "28%" }}
@@ -254,7 +254,7 @@ export default () => {
                 ></img>
               </a>
             </Link>
-            <Link href="/gallery7">
+            <Link href="/newtop">
               <a>
                 <img
                   style={{ top: "358%", right: "24%", width: "28%" }}
@@ -263,7 +263,7 @@ export default () => {
                 ></img>
               </a>
             </Link>
-            <Link href="/gallery7">
+            <Link href="/newtop">
               <a>
                 <img
                   style={{ top: "350%", right: "0%", width: "20%" }}
@@ -272,7 +272,7 @@ export default () => {
                 ></img>
               </a>
             </Link>
-            <Link href="/gallery7">
+            <Link href="/newtop">
               <a>
                 <img
                   style={{ top: "375%", right: "27%", width: "20%" }}
@@ -281,7 +281,7 @@ export default () => {
                 ></img>
               </a>
             </Link>
-            <Link href="/gallery2">
+            <Link href="/collage">
               <a>
                 <img
                   style={{ top: "385%", left: "5%", width: "28%" }}
@@ -290,7 +290,7 @@ export default () => {
                 ></img>
               </a>
             </Link>
-            <Link href="/gallery2">
+            <Link href="/collage">
               <a>
                 <img
                   style={{ top: "427%", left: "5%", width: "28%" }}
@@ -299,7 +299,7 @@ export default () => {
                 ></img>
               </a>
             </Link>
-            <Link href="/gallery2">
+            <Link href="/collage">
               <a>
                 <img
                   style={{ top: "408%", right: "5%", width: "50%" }}
@@ -308,7 +308,7 @@ export default () => {
                 ></img>
               </a>
             </Link>
-            <Link href="/gallery2">
+            <Link href="/collage">
               <a>
                 <img
                   style={{ top: "475%", left: "0%", width: "100%" }}

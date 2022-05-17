@@ -32,7 +32,13 @@ const myImages = [
     src:'images/self_portrait/walkingdead.jpg',
     alt:'DaleK fishing split screen with charecter from walking dead',
     caption:'Walking dead with Fish',
-    style:{ top: "75%", left: "52%", width: '34%' }
+    style:{ top: "75%", left: "52%", width: '36.5%' }
+  },
+  {
+    src:'images/self_portrait/wdlady.jpg',
+    alt:'DaleK fishing split screen with charecter from walking dead',
+    caption:'Walking dead with Fish 2',
+    style:{ top: "75%", left: "10%", width: '34%' }
   },
   {
     src:'images/self_portrait/panoshadow.jpg' ,
@@ -56,7 +62,7 @@ export default () => {
       <Header />
       <Navbar />
       <div className='container-fluid'>
-        <h1 className='text-center mt-5 mb-5 fs-1 fw-normal '>GALLERY 6</h1>
+        <h1 className='text-center mt-5 mb-5 fs-1 fw-normal '>Self Portrait</h1>
         <div className='photobox'>
           {myImages.map((image, i) =>
             <img 
