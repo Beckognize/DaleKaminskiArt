@@ -59,6 +59,23 @@ p{
   
 }
 
+.cv-table td:first-child{
+padding-right: 1rem;
+
+min-width: 8rem;
+text-align: right;
+vertical-align: top;
+
+}
+
+.cv-table td{
+padding-bottom: .5rem;
+line-height: 1.5rem;
+
+
+}
+
+
 
 .photobox img{
     position: absolute;
