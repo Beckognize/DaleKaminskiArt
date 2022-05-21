@@ -150,6 +150,15 @@ line-height: 1.5rem;
     scrollbar-width:none;
 }
 
+.blurb{
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 5rem;
+  xmax-width:50rem;
+  xmargin:auto;
+  font-size:1.5rem;
+}
+
 .slidebox {
   max-width:100%;
   max-height:100%;

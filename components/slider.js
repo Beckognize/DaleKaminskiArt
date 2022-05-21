@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect } from 'react'
 import Carousel from 'react-bootstrap/Carousel'
 export default ({visible, exit, images, imageNumber, selectImage}) => {
  
@@ -9,6 +9,36 @@ export default ({visible, exit, images, imageNumber, selectImage}) => {
       document.body.style.overflow = 'initial'
     }
   }
+
+  // Add event listener when the slider is opened
+  useEffect(() => {
+    const keyDownHandler = (event) => {
+      if (!visible) return;
+
+      const KEY_CODE_LEFT = 37;
+      const KEY_CODE_RIGHT = 39;
+      const { keyCode } = event;
+  
+      if (keyCode === KEY_CODE_LEFT) {
+        if (imageNumber === 0) {
+          selectImage(images.length - 1);
+        } else {
+          selectImage(imageNumber - 1);
+        }
+      }
+  
+      if (keyCode === KEY_CODE_RIGHT) {
+        if (imageNumber === (images.length - 1)) {
+          selectImage(0);
+        } else {
+          selectImage(imageNumber + 1);
+        }
+      }
+    };
+    window.addEventListener('keydown', keyDownHandler);
+    // Remove event listeners when slider is closed
+    return () => window.removeEventListener('keydown', keyDownHandler);
+  }, [visible, imageNumber]);
 
   return (
     <div
