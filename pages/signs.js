@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import Navbar from '../components/navbar'
 import Header from '../components/header'
+import Footer from '../components/footer'
+import Photobox from '../components/photobox'
 import Slider from '../components/slider'
 
 const myImages = [
@@ -103,23 +105,16 @@ export default () => {
         <p className='blurb'>In my travels, there were some images that impressed me as signs of our times here in America.
           The Main Street with the red stop lights as the overzealous makes a spontaneous parade. The strange
           hyper-reality of a taxidermy mountain in a Cabelas sporting goods store. The second amendment lunch counter.
-          The baby swing with the police tape. These images have given me pause.</p> 
-          </div>
-          <div className='container-fluid'>
-        <div className='photobox'>
-          {myImages.map((image, i) =>
-            <img
-              src={image.src}
-              alt={image.alt}
-              style={image.style}
-              onClick={() => {
-                setImageNumber(i)
-                setSliderIsVisible(true)
-              }}
-            />
-          )}
-        </div>
+          The baby swing with the police tape. These images have given me pause.</p>
       </div>
+      <div className='container-fluid'>
+        <Photobox
+          images={myImages}
+          setImageNumber={setImageNumber}
+          setSliderIsVisible={setSliderIsVisible}
+        />
+      </div>
+      <Footer />
       <Slider
         visible={sliderIsVisible}
         exit={() => setSliderIsVisible(false)}

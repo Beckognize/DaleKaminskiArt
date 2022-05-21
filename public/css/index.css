@@ -90,8 +90,8 @@ line-height: 1.5rem;
     border: .3rem solid white;
 }
 
-.frontbox{ 
-   
+/*
+.frontbox{  
   position:relative;
     width: 95%;
     max-width: 1500px;
@@ -99,9 +99,7 @@ line-height: 1.5rem;
     xaspect-ratio: 1/2;
     height:95vw;
    max-height:1500px;
-  
 }
-
 
 .frontbox img{
     position: absolute;
@@ -115,6 +113,7 @@ line-height: 1.5rem;
     cursor: pointer;
     border: .3rem solid white;
 }
+*/
 
 .outerbox{
     position: absolute;
@@ -212,4 +211,11 @@ line-height: 1.5rem;
   color: black;
   text-align: center;
   height:4rem;
+}
+
+footer {
+  transition: opacity .5s ease-in 1s, top .1s ease;
+  background-color: white;
+  padding: 2rem;
+  margin-top: 2rem;
 }

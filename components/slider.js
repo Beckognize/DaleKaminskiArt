@@ -55,7 +55,7 @@ export default ({visible, exit, images, imageNumber, selectImage}) => {
         onSelect={selectImage}
         >
       {images.map(image =>
-        <Carousel.Item>
+        <Carousel.Item key={image.src}>
             <div
               style={{
                 position: 'fixed',
@@ -71,7 +71,7 @@ export default ({visible, exit, images, imageNumber, selectImage}) => {
               }}
               />
               <Carousel.Caption>
-              {image?.caption} 
+                {image?.caption} 
               </Carousel.Caption>
         </Carousel.Item>
       )}
