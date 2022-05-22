@@ -118,8 +118,13 @@ export default () => {
     <>
       <Header />
       <Navbar />
-      <div className='container-fluid'>
+      <div className='container'>
         <h1 className='text-center mt-5 mb-5 fs-1 fw-normal '>People</h1>
+        <p className='blurb text-center'>
+        People I have met, seen, and taught over the last few years. 
+        </p>
+        </div>
+        <div className="container-fluid">
         <Photobox
           images={myImages}
           setImageNumber={setImageNumber}
