@@ -216,9 +216,8 @@ export default () => {
       <Navbar />
       <div className='container'>
         <h1 className='text-center mt-5 mb-5 fs-1 fw-normal '>On the Road</h1>
-        <p className='blurb'>
-        Landscapes from my travels around America. See also New Topographics
-        Move “farm on the plains “ to Topographics. 
+        <p className='blurb text-center'>
+        Landscapes from my travels around America. 
         </p>
         </div>
         <div className="container-fluid">
