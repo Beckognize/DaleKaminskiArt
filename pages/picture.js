@@ -112,13 +112,13 @@ const myImages = [
     src: "images/graphic/buildingA.jpg",
     alt: "front entrance to building A",
     caption: "A Entrance",
-    style: { top: "300%", left: "50%", width: "15%" },
+    style: { top: "275%", left: "22%", width: "28%" },
   },
   {
     src: "images/graphic/BeanView.jpg",
     alt: "city reflected in the bean in Chicago",
     caption: "View of Chicago in Cloud Gate",
-    style: { top: "315%", right: "17.5%", width: "19%" },
+    style: { top: "287%", right: "17.5%", width: "30%" },
   },
 ];
 
@@ -136,7 +136,7 @@ export default () => {
           These images are visually striking and have a graphic quality. They
           resonate with formal precision. It’s always interesting to find these
           in the world. These images are closely related to Graphic design,
-          Panorama, Collage/Experimental.
+          Panorama, Collage/Experimental
         </p>
         </div>
         <div className="container-fluid">

@@ -99,15 +99,15 @@ export default () => {
         <h1 className="text-center mt-5 mb-5 fs-1 fw-normal ">
           Collage and Experimental
         </h1>
-        <p className="blurb">
-          Some of my graphic design work as well as photo collage. I am a big
-          fan of John Heartfield.&nbsp;
+        <p className="blurb text-center">
+          Some of my graphic design work as well as photo collage. <br/> I am a big
+          fan of&nbsp;
           <a
             href="https://johnheartfield.com/John-Heartfield-Exhibition"
             target="_blank"
             rel="noopener noreferrer"
           >
-            johnheartfield.com
+            John Heartfield.
           </a>
         </p>
       </div>
