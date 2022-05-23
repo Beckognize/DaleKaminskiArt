@@ -71,10 +71,21 @@ vertical-align: top;
 .cv-table td{
 padding-bottom: .5rem;
 line-height: 1.5rem;
-
-
 }
 
+
+.player-wrapper {
+  position: relative;
+  max-width:1200px;
+  padding-top: 56.25%; /* Player ratio: 100 / (1280 / 720) */
+  margin: auto;
+}
+
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 
 
 .photobox img{

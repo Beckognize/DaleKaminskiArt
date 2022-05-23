@@ -21,6 +21,7 @@ export default () => {
             <NavDropdown.Item href="/self">Self Portrait</NavDropdown.Item>
             <NavDropdown.Item href="/newtop">New Topographics</NavDropdown.Item>
             <NavDropdown.Item href="/ontheroad">On the Road</NavDropdown.Item>
+            <NavDropdown.Item href="/video">Video</NavDropdown.Item>
             <NavDropdown.Divider />
             <NavDropdown.Item href="/contact">Contact Me</NavDropdown.Item>
           </NavDropdown>
