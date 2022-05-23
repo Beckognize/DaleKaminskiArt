@@ -62,6 +62,7 @@ export default ({}) => {
             &copy; Dale Kaminski {new Date().getFullYear()}
           </em>
         </p>
+        <p className='text-end text-muted fw-light '><small>Built by Beckognize</small></p>
       </div>
     </footer>
   );

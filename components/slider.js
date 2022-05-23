@@ -71,7 +71,7 @@ export default ({visible, exit, images, imageNumber, selectImage}) => {
               }}
               />
               <Carousel.Caption>
-                {image?.caption} 
+                <div className='lh-sm'>{image?.caption}</div>
               </Carousel.Caption>
         </Carousel.Item>
       )}
