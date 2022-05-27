@@ -139,10 +139,13 @@ line-height: 1.5rem;
 .blurb{
   padding-left: 1rem;
   padding-right: 1rem;
-  padding-bottom: 5rem;
+  xpadding-bottom: 5rem;
   xmax-width:50rem;
   xmargin:auto;
-  font-size:1.5rem;
+ 
+}
+.blurb p{
+  font-size:1.5rem; 
 }
 
 .slidebox {
