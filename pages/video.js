@@ -23,7 +23,7 @@ export default () => {
         <br/>
       <h3>Links</h3>
         <p>
-        <a href="https://voyager.jpl.nasa.gov/golden-record/" target="_blank" rel="noopener noreferrer">Golden Record.</a><br/>
+        <a href="https://voyager.jpl.nasa.gov/golden-record/" target="_blank" rel="noopener noreferrer">Golden Record</a><br/>
         <a href="https://carlsagan.com/" target="_blank" rel="noopener noreferrer">Carl Sagan</a>&nbsp;<br/>
         <a href="https://mofo.net.au/" target="_blank" rel="noopener noreferrer">Mona Foma</a>&nbsp;<br/>
         <br/>
