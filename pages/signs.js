@@ -98,7 +98,7 @@ export default () => {
 
   return (
     <>
-      <Header />
+      <Header title='Sign of the Times' />
       <Navbar />
       <div className='container'>
         <h1 className='text-center mt-5 mb-5 fs-1 fw-normal '>Sign of the Times</h1>

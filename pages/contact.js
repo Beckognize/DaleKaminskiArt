@@ -4,7 +4,7 @@ import Header from "../components/header";
 export default () => {
   return (
     <>
-      <Header />
+      <Header title='Contact me' />
       <Navbar />
       <div className="container-fluid">
         <div className="conbox">

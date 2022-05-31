@@ -86,7 +86,7 @@ export default () => {
 
   return (
     <>
-      <Header />
+      <Header title='New Topographics' />
       <Navbar />
       <div className='container'>
         <h1 className='text-center mt-5 mb-5 fs-1 fw-normal '>New Topographics</h1>

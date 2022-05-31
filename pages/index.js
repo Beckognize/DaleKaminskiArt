@@ -6,7 +6,7 @@ import Link from "next/link";
 export default () => {
   return (
     <>
-      <Header />
+      <Header title='Home' />
       <Navbar />
       <div className="container-fluid">
         <div className="photobox">

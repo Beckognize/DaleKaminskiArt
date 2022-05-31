@@ -61,7 +61,7 @@ export default () => {
 
   return (
     <>
-      <Header />
+      <Header title='Self Portrait'/>
       <Navbar />
       <div className='container-fluid'>
         <h1 className='text-center mt-5 mb-5 fs-1 fw-normal '>Self Portrait</h1>

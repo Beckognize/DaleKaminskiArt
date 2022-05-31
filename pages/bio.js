@@ -5,7 +5,7 @@ import Footer from '../components/footer'
 export default () => {
   return (
     <>
-      <Header />
+      <Header title='Biography'/>
       <Navbar />
       <div className='container words'>
         <h1>Biography</h1>

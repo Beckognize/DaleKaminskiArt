@@ -116,7 +116,7 @@ export default () => {
 
   return (
     <>
-      <Header />
+      <Header title='People'/>
       <Navbar />
       <div className='container'>
         <h1 className='text-center mt-5 mb-5 fs-1 fw-normal '>People</h1>
