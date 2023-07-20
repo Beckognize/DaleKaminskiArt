@@ -73,10 +73,16 @@ const myImages = [
     style: { top: "64%", right: "0%", width: '40%' }
   },
   {
-    src: 'images/travels/farmtrain.jpg',
+    src: 'images/topographics/farmtrain.jpg',
     alt: 'train on a big farm',
     caption: '"Farm on the Plains", Somewhere in Iowa.',
-    style: { top: "116%", right: "2%", width: '75%' }
+    style: { top: "116%", right: "0%", width: '73%' }
+  },
+  {
+    src: 'images/topographics/Gas.jpg',
+    alt: 'gas station',
+    caption: '"Gas"',
+    style: { top: "100%", left: "0%", width: '25%' }
   },
 ]
 

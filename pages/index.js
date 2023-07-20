@@ -148,6 +148,15 @@ export default () => {
           <Link href="/ontheroad">
             <a>
               <img
+                style={{ top: "219%", right: "25%", width: "20%" }}
+                src="images/front/montanaClouds.jpg"
+                alt="A blue sky with many large clouds"
+              ></img>
+            </a>
+          </Link>
+          <Link href="/ontheroad">
+            <a>
+              <img
                 style={{ top: "238%", left: "5%", width: "26%" }}
                 src="images/front/farmwindmills.jpg"
                 alt="road with farm and windmills in the distance"

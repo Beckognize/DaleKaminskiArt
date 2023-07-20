@@ -132,12 +132,7 @@ export default () => {
       <Navbar />
       <div className="container">
         <h1 className="text-center mt-5 mb-5 fs-1 fw-normal ">Picturesque</h1>
-        <p className='blurb'>
-          These images are visually striking and have a graphic quality. They
-          resonate with formal precision. It’s always interesting to find these
-          in the world. These images are closely related to Graphic design,
-          Panorama, Collage/Experimental
-        </p>
+        <p className='blurb'></p>
         </div>
         <div className="container-fluid">
         <Photobox

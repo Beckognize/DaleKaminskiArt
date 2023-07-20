@@ -13,6 +13,18 @@ const myImages = [
     style: { top: "0%", right: "12%", width: '75%' }
   },
   {
+    src: 'images/travels/montanaClouds.jpg',
+    alt: 'clouds over Montana',
+    caption: '"Clouds, Montana"',
+    style: { top: "130%", left: "8%", width: '25%' }
+  },
+  {
+    src: 'images/travels/superior beach.jpg',
+    alt: 'Lake superior beach',
+    caption: '"Superior Beach"',
+    style: { top: "147%", left: "3%", width: '30%' }
+  },
+  {
     src: 'images/travels/clouds.jpg',
     alt: 'clouds over cornfeilds',
     caption: '"Thunderhead Over Cornfield", Cresco, Iowa.',
@@ -145,22 +157,28 @@ const myImages = [
     style: { top: "360%", left: "0%", width: '70%' }
   },
   {
+    src: 'images/travels/NorthDakota_field.jpg',
+    alt: 'Bright green grass and blue sky',
+    caption: '"North Dakota Field"',
+    style: { top: "385%", left: "0%", width: '26%' }
+  },
+  {
     src: 'images/travels/windingroad.jpg',
     alt: 'arial view of a long winding road',
     caption: '"Curve Road", Mesa Verde, Colorado.',
-    style: { top: "388%", left: "0%", width: '43%' }
+    style: { top: "388%", left: "28%", width: '42%' }
   },
   {
     src: 'images/travels/cowvally.jpg',
     alt: 'cows in a valley',
     caption: '"Cattle in Valley", Driftless region, Wisconsin.',
-    style: { top: "410%", right: "10%", width: '38%' }
+    style: { top: "410%", right: "0%", width: '27%' }
   },
   {
     src: 'images/travels/hudsonriver.jpg',
     alt: 'Hudson river valley',
     caption: '"Windmills in The Berkshires", Williamstown, Massachusetts.',
-    style: { top: "415%", left: "0%", width: '44%' }
+    style: { top: "415%", left: "27%", width: '43%' }
   },
   {
     src: 'images/travels/longtrain.jpg',
@@ -184,25 +202,37 @@ const myImages = [
     src: 'images/travels/deathvally.jpg',
     alt: 'Dry tree in deathvalley',
     caption: '"Tree", Death Valley, California. ',
-    style: { top: "478%", left: "22%", width: '50%' }
+    style: { top: "478%", left: "0%", width: '50%' }
+  },
+  {
+    src: 'images/travels/lake Louise.jpg',
+    alt: 'Lake Louise',
+    caption: 'Lake Louise',
+    style: { top: "510%", right: "10%", width: '30%' }
   },
   {
     src: 'images/travels/lonelyroad.jpg',
     alt: 'long road with green grass and blue sky',
     caption: '"Road", Eastern Colorado.',
-    style: { top: "550%", right: "2%", width: '50%' }
+    style: { top: "555%", right: "2%", width: '50%' }
   },
   {
     src: 'images/travels/ghostship.jpg',
     alt: 'ship in the distance',
     caption: '"Ghost Ship", Luddington, Michigan.',
-    style: { top: "555%", left: "0%", width: '45%' }
+    style: { top: "560%", left: "0%", width: '45%' }
   },
   {
     src: 'images/travels/wolfcreek.jpg',
     alt: 'wolf creek valley',
     caption: '"Wolf Creek Pass", Continental divide, Colorado.',
     style: { top: "590%", left: "0%", width: '100%' }
+  },
+  {
+    src: 'images/travels/burnedHouse.jpg',
+    alt: 'Burned out house in field',
+    caption: '"Burned house"',
+    style: { top: "482%", right: "0%", width: '44%' }
   },
 ]
 

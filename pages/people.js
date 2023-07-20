@@ -10,19 +10,19 @@ const myImages = [
     src: 'images/people/Dawn1.jpg',
     alt: 'woman jumping',
     caption: '"Dawn Jump 1," Driftless Area, Wisconsin.',
-    style: { top: "5%", right: "60%", width: '16%' }
+    style: { top: "5%", right: "57%", width: '16%' }
   },
   {
     src: 'images/people/Dawn2.jpg',
     alt: 'woman jumping',
     caption: '"Dawn Jump 2," Driftless Area, Wisconsin.',
-    style: { top: "5%", right: "45%", width: '16%' }
+    style: { top: "5%", right: "42%", width: '16%' }
   },
   {
     src: 'images/people/Dawn3.jpg',
     alt: 'woman jumping',
     caption: '"Dawn Jump 3," Driftless Area, Wisconsin.',
-    style: { top: "5%", right: "30%", width: '16%' }
+    style: { top: "5%", right: "27%", width: '16%' }
   },
   {
     src: 'images/people/korinji.jpg',
@@ -48,65 +48,84 @@ const myImages = [
     caption: '"Meditating Monk," Korinji Monastery, Wisconsin.',
     style: { top: "40%", right: "43%", width: '15%' }
   },
+ {
+    src: 'images/people/lotsgoingonhere.jpg',
+    alt: 'Woman posing for a picture',
+    caption: '"Lots going on here"',
+    style: { top: "68%", left: "4%", width: '21%' }
+  }, 
   {
     src: 'images/people/3ladies.jpg',
     alt: 'three old ladies on bench',
     caption: '"Three Ladies," Wuhan, China.',
-    style: { top: "72%", left: "26%", width: '25%' }
+    style: { top: "74%", left: "34%", width: '26%' }
   },
   {
     src: 'images/people/vootvicjake.jpg',
     alt: 'three men with wig',
     caption: '"Voot Warnings Band Riverwest," Milwaukee Wisconsin.',
-    style: { top: "74%", left: "51%", width: '25%' }
+    style: { top: "76%", left: "63%", width: '26%' }
   },
+  
   {
     src: 'images/people/studentshadow.jpg',
     alt: 'group of people with umbrella',
     caption: '"Students taking pictures of shadows," Wuhan, China.',
-    style: { top: "98%", left: "0%", width: '30%' }
+    style: { top: "100%", left: "0%", width: '30%' }
   },
   {
     src: 'images/people/mask.jpg',
     alt: 'woman in mask',
     caption: '"Masked Student," Wuhan, China.',
-    style: { top: "98%", right: "42%", width: '20%' }
+    style: { top: "100%", right: "42%", width: '20%' }
   },
   {
     src: 'images/people/studentshay.jpg',
     alt: 'students in classroom',
     caption: 'Students with Art Shay Postcards," Wuhan, China.',
-    style: { top: "98%", right: "0%", width: '35%' }
+    style: { top: "100%", right: "0%", width: '35%' }
   },
   {
     src: 'images/people/studentjump.jpg',
     alt: 'student jumping',
     caption: '"Student Jump," Wuhan, China.',
-    style: { top: "135%", right: "25%", width: '25%' }
+    style: { top: "137%", right: "25%", width: '25%' }
   },
   {
     src: 'images/people/kidjump.jpg',
     alt: 'kid jumping',
     caption: '"Kid Jump," Wuhan, China.',
-    style: { top: "135%", right: "0%", width: '25%' }
+    style: { top: "137%", right: "0%", width: '25%' }
   },
   {
     src: 'images/people/boybent.jpg',
     alt: 'boy in sunset bent',
     caption: '"Kid Fishing," Luddington, Michigan.',
-    style: { top: "135%", left: "0%", width: '22%' }
+    style: { top: "137%", left: "0%", width: '22%' }
+  },
+  {
+    src: 'images/people/poseforpicture.jpg',
+    alt: 'Woman with arms raised posing for picture',
+    caption: '"Pose for picture"',
+    style: { top: "137%", left: "22%", width: '22%' }
   },
   {
     src: 'images/people/waving.jpg',
     alt: 'people waving on lighthouse',
     caption: '"Waving from lighthouse Deck of the Badger Ferry," Manitowoc, Wisconsin.',
-    style: { top: "180%", left: "65%", width: '30%' }
+    style: { top: "175%", left: "25%", width: '30%' }
+  },
+  {
+    src: 'images/people/twopeopleonbeach.jpg',
+    alt: 'two people on beach',
+    caption: 'Two people on a beach',
+    style: { top: "182%", left: "65%", width: '30%' }
   },
   {
     src: 'images/people/Bowpeeps.jpg',
     alt: 'people on bow of boat',
     caption: '"Deck of Badger crossing Lake Michigan.',
-    style: { top: "190%", left: "0%", width: '55%' }
+    style: { top: "192%", left: "0%", width: '55%' }
   },
 ]
 

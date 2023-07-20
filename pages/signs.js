@@ -102,10 +102,7 @@ export default () => {
       <Navbar />
       <div className='container'>
         <h1 className='text-center mt-5 mb-5 fs-1 fw-normal '>Sign of the Times</h1>
-        <p className='blurb'>In my travels, there were some images that impressed me as signs of our times here in America.
-          The Main Street with the red stop lights as the overzealous makes a spontaneous parade. The strange
-          hyper-reality of a taxidermy mountain in a Cabelas sporting goods store. The second amendment lunch counter.
-          The baby swing with the police tape. These images have given me pause.</p>
+        <p className='blurb'></p>
       </div>
       <div className='container-fluid'>
         <Photobox

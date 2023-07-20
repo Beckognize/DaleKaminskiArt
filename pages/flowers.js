@@ -106,10 +106,7 @@ export default () => {
           Flowers and Insects
         </h1>
         <p className='blurb'>
-          I have an 80 mm macro portrait lens that opens up a whole different
-          view of the world. Also, some of these shots were taken with a cell
-          phone camera. Modern cell phone cameras are amazing and I use mine all
-          the time.{" "}
+         {" "}
         </p>
         </div>
         <div className="container-fluid">

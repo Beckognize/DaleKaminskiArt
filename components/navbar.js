@@ -14,7 +14,7 @@ export default () => {
           <Nav.Link href="/cv">CV</Nav.Link>
           <NavDropdown title="Work" id="basic-nav-dropdown" align="end">
             <NavDropdown.Item href="/signs">Sign of the Times </NavDropdown.Item>
-            <NavDropdown.Item href="/collage">Collage and Experimental</NavDropdown.Item>
+            <NavDropdown.Item href="/collage">Collage</NavDropdown.Item>
             <NavDropdown.Item href="/flowers">Flowers and Insects</NavDropdown.Item>
             <NavDropdown.Item href="/picture">Picturesque</NavDropdown.Item>
             <NavDropdown.Item href="/people">People</NavDropdown.Item>

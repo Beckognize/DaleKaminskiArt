@@ -97,19 +97,9 @@ export default () => {
       <Navbar />
       <div className="container">
         <h1 className="text-center mt-5 mb-5 fs-1 fw-normal ">
-          Collage and Experimental
+          Collage
         </h1>
-        <p className="blurb text-center">
-          Some of my graphic design work as well as photo collage. <br/> I am a big
-          fan of&nbsp;
-          <a
-            href="https://johnheartfield.com/John-Heartfield-Exhibition"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            John Heartfield.
-          </a>
-        </p>
+        <p className="blurb text-center"></p>
       </div>
       <div className="container-fluid">
         <Photobox
