@@ -205,7 +205,7 @@ const myImages = [
     style: { top: "478%", left: "0%", width: '50%' }
   },
   {
-    src: 'images/travels/lake Louise.jpg',
+    src: 'images/travels/lakeLouise.jpg',
     alt: 'Lake Louise',
     caption: 'Lake Louise',
     style: { top: "510%", right: "10%", width: '30%' }
