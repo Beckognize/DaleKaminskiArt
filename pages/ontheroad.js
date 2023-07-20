@@ -19,7 +19,7 @@ const myImages = [
     style: { top: "130%", left: "8%", width: '25%' }
   },
   {
-    src: 'images/travels/superior beach.jpg',
+    src: 'images/travels/superiorbeach.jpg',
     alt: 'Lake superior beach',
     caption: '"Superior Beach"',
     style: { top: "147%", left: "3%", width: '30%' }
