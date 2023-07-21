@@ -65,9 +65,7 @@ export default () => {
       <Navbar />
       <div className='container-fluid'>
         <h1 className='text-center mt-5 mb-5 fs-1 fw-normal '>Self Portrait</h1>
-        <p className='blurb text-center'>
-        This gallery is also closely related to Experimentation and graphic design.  
-        </p>
+        <p className='blurb text-center'></p>
         </div>
         <div className="container-fluid">
         <Photobox

@@ -96,12 +96,7 @@ export default () => {
       <Navbar />
       <div className='container'>
         <h1 className='text-center mt-5 mb-5 fs-1 fw-normal '>New Topographics</h1>
-        <p className="blurb">
-          The New Topographics exhibition struck a chord with me and I take
-          photos in this style when I see them. It’s interesting to go to the
-          edge of towns and cities and see where the encroachment into the
-          wildlands is just starting.
-        </p>
+        <p className="blurb"></p>
       </div>
       <div className="container-fluid">
         <Photobox

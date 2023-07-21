@@ -48,6 +48,14 @@ export default () => {
             <br />
             <h3>TEACHING EXPERIENCE</h3>
             <table className="cv-table">
+            <tr>
+                <td>2022-23</td>
+                <td>
+                Art 100 art appreciation for non-art majors, 
+                Photography 176 Digital photography for non-art majors.
+                Faculty Colloquium (Fall 2022- Spring 2023) University of Madison, Madison Wisconsin
+                </td>
+              </tr>
               <tr>
                 <td>2019</td>
                 <td>
